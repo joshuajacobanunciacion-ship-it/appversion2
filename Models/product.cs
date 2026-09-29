@@ -12,6 +12,9 @@ namespace appversion2.Models
 
         public int Price { get; set; }
 
+        public string? Description { get; set; }
+        public string? UnitMeasure { get; set; }
+
     }
 
 }
